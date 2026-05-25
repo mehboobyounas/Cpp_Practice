@@ -16,6 +16,6 @@ int main() {
         bool has_bad_credit_history;
     cout << "Enter Your Current Balance: "; cin >> current_balance;
         cout << "Enter Your Monthly Income: "; cin >> monthly_income;
-        cout << "Do you have bad crdit history 1 for Yes and 0 for No: "; cin >> has_bad_credit_history;
+        cout "Do you have bad crdit history 1 for Yes and 0 for No: "; cin >> has_bad_credit_history;
         isEligibleForLoan(current_balance, monthly_income, has_bad_credit_history);
 }
